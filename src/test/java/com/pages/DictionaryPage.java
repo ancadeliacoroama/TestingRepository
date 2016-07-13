@@ -23,7 +23,7 @@ public class DictionaryPage extends PageObject {
     private WebElementFacade lookupButton;
 
     public void enter_keywords_modify_from_LocalRepository(String keyword) {
-        searchTerms.type(keyword);
+    searchTerms.type(keyword);
     }
 
     public void lookup_terms() {
